@@ -8,10 +8,20 @@ function aplicarCambios(){
  let posicion = document.getElementById("posicion").value;
 
 
+if((document.getElementsByTagName("tr").length-1)<posicion){
+
+
+    
+
+}else{
+
+
+
+
 let fila= document.getElementsByTagName("tr")[posicion];
 let col1 = fila.getElementsByTagName("td")[1];
 let col2 = fila.getElementsByTagName("td")[2];
 col1.innerHTML = equipo;
 col2.innerHTML = puntos;
 
-}
+}}

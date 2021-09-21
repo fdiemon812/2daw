@@ -1,0 +1,19 @@
+Ejecutar en el terminal: sudo apt-get install epoptes-client
+Descargar el siguiente archivo: epotes_cliente.sh
+Abre el terminal y ejecuta lo siguiente:  sudo bash epotes_cliente.sh TUNOMBRE XXX.XX.X.XXX (donde XXX.XX.X.XXX sera la IP que proporcionará del profesor@
+Una vez realizado los pasos es posible que necesites reiniciar.
+¿Cuándo puede fallar el script? Cuando el sistema esté en un estado inestable porque se ha cortado una instalación previa de algún paquete.
+
+Formas de arreglarlo:
+
+ 
+
+sudo dpkg --configure -a
+sudo apt-get install -f
+
+ 
+
+Luego en el caso de la configuración del cliente, se tiene que instalar a mano el epoptes cliente con:
+
+sudo apt install epoptes-client
+

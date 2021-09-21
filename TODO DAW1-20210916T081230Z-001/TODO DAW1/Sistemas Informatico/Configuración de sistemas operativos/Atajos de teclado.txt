@@ -1,0 +1,109 @@
+Atajos de teclado en la shell de comandos
+ATAJOS DE TECLADO EN LA SHELL DE COMANDOS
+
+***** CTRL *****
+
+Ctrl + A       Manda el cursor al principio de la línea
+
+Ctrl + B       Funciona como la flecha izquierda, hace que el cursor se mueva hacia atrás.
+Ctrl + C       Aborta la ejecución de el proceso actual.
+Ctrl + D       Borra el carácter que este dentro del cursor. También cuando la shell esta en espera de ordenes cierra la ventana y si hay varias pestañas abiertas cierra de una en una.
+
+Ctrl + E       Manda el cursor al final de la línea
+Ctrl + F       Mueve el cursor hacia adelante, funciona como la flecha derecha
+Ctrl + H       Borra el carácter a la izquierda del cursor. Equivale a la tecla retroceso (backspace)
+Ctrl + K       Elimina todo lo que este del cursor a su derecha
+
+Ctrl + L       Limpia la pantalla. Es similar al comando clear.
+Ctrl + N       Siguiente comando en el historial. Trabaja igual que la flecha abajo.
+Ctrl + O       Equivale a enter
+Ctrl + P       Trabaja igual que la flecha arriba. Muestra el comando anterior ejecutado.
+Ctrl + R       Búsqueda en el archivo .bash_history. Busca un comando tecleado con anterioridad que empiece con las letras que tecleamos.
+
+Ctrl + S       Congela la terminal.
+Ctrl + T       Cambia los dos caracteres anteriores a la posición del cursor.
+Ctrl + U       Borra y guarda en el portapapeles lo que esta a la izquierda del cursor.
+Ctrl + XX       Mueve el cursor a su posición anterior.
+
+Ctrl + II       Muestra todos los comandos posibles
+Ctrl + Y       Pega la palabra que este guardada en el portapapeles cuando se haya usado los Ctrl + U y Ctrl + W
+Ctrl + W       Borra y guarda en el portapapeles la palabra a la izquierda del cursor.
+Ctrl + Z       Suspende/detiene el comando. Manda el proceso actual al background (segundo plano), el proceso puede ser regresado a primer plano con los comandos: jobs y fb.
+
+Ctrl + Re Pág (Page Up)       Cambia a la pestaña izquierda
+Ctrl + Av Pág (Page Down)       Cambia a la pestaña derecha
+Ctrl + Flecha derecha           Mueve el cursor una palabra a la derecha.
+
+Ctrl + Flecha izquierda       Mueve el cursor una palabra a la izquierda.
+
+ 
+
+*****  Alt  *****
+Alt + * (Si es el carácter arriba en la tecla hay que presionar además shift)       Inserta todas las posibles entradas que pueden completar la palabra.
+Alt + <       Mueve a la primera línea en el historial.
+
+Alt + =       Mueve a la ultima línea en el historial.
+Alt + ? (Si es el carácter arriba en la tecla hay que presionar además shift)       Muestra la lista completa de sugerencias de posibilidades.
+Alt + backspace       Borra hacia atras del cursor
+Alt + .       Muestra el comando previo utilizado
+
+Alt + C       Hace que la primera letra de una palabra se convierta a mayúscula y el resto a minúsculas. Cuando esta en medio de una palabra convierte a mayúscula la letra donde esta el cursor y deja en minúsculas las letras del cursor hacia la derecha.
+Alt + D       Borra una palabra. Me funciono cuando estaba al principio de la misma.
+Alt + L       Convierte una palabra a minúsculas
+
+Alt + N       Busca hacia delante en el historial, non-incremental
+Alt + P       Busca hacia atras, non-incremental
+Alt + U       Hace mayúscula una palabra
+Alt + 1-9       Nos mueve de pestaña en pestaña de acuerdo a la posición que ocupa y el número que hayamos presionado.
+
+ 
+
+*****  Ctrl + Shift  *****
+Ctrl + Shift + C       Copiar
+Ctrl + Shift + N       Abre terminal
+Ctrl + Shift + Q       Cierra ventana
+
+Ctrl + Shift + T       Abre pestaña
+Ctrl + Shift + W       Cierra pestaña
+Ctrl + Shift + V       Pegar
+
+Ctrl + Shift + Re Pág (Page Up)       Mueve la pestaña a la izquierda
+Ctrl + Shift + Av Pág (Page Down)       Mueve la pestaña a la derecha
+
+ 
+
+*****  Alt + Shitf  *****
+Alt + Shift + B        Mueve el cursor 1 palabra hacia atrás en la línea en la que esté situado.
+Alt + Shift + F        Mueve el cursor 1 palabra hacia adelante en la línea en la que esté situado.
+
+Alt + Shift + T        Invierte el lugar de dos palabras
+
+ 
+
+*****  Tabulador (Primero el símbolo y luego presionar dos veces tab)  *****
+2T       Muestra todos los comandos disponibles
+
+/ + 2T       Muestra la estructura completa de directorios raíz incluidos los ocultos.
+[Directorio]/ + 2T       Igual que /+2T. Muestra la estructura completa del directorio, incluido los ocultos.
+[Dentro de un directorio] + 2T       Muestra todos los subdirectorios incluidos los ocultos.
+* + 2T           Muestra los subdirectorios excluyendo a los ocultos.
+~ + 2T           Muestra todos los usuarios (users) presentes en el sistema desde "/etc/passwd"
+
+$ + 2T           Todas las variables del sistema.
+@ + 2T           Muestra las entradas desde "/etc/hosts"
+= + 2T           La salida es igual a ls en el directorio.
+
+ 
+
+*****  Otros atajos  *****
+Flecha arriba           Muestra el comando anterior ejecutado
+Flecha abajo            Muestra el siguiente comando ejecutado
+Flecha izquierda       Mueve el cursor hacia la izquierda
+Flecha derecha       Mueve el cursor hacia la derecha
+Inicio       Mueve el cursor al principio de la línea
+
+Fin       Mueve el cursor al final de la línea
+Esc y luego la letra D       Borra de la posición actual al final de la palabra
+Esc y luego la letra P       Busca en el historial de comandos. Similar a Ctrl+R
+Esc y luego la letra T       Invierte el orden de dos palabras contiguas
+Esc y luego la letra U       Cambia a mayúsculas la palabra adelante del cursor.

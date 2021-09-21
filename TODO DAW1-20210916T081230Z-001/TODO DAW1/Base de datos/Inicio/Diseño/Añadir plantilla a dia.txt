@@ -1,0 +1,8 @@
+1º Descargas el archivo y lo descomprimes
+
+2º Accedes a la ruta de tu equipo home/.dia (si no te aparece la carpeta ".dia" debes pulsar control + h para que se visualicen los archivos ocultos)
+
+3º pegas el contenido del zip en esas carpetas y cuando te aparezca la opción remplazar haces clic en Sí
+
+4º Ya puedes usar la nueva plantilla proporcionada para realizar tus diagramas entidad relación.
+

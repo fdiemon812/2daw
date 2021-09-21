@@ -1,0 +1,3 @@
+regexp_like
+
+http://www.oracle.com/technetwork/es/articles/sql/expresiones-regulares-base-de-datos-1569340-esa.html

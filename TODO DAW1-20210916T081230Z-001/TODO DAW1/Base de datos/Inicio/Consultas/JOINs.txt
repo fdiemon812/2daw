@@ -1,0 +1,1 @@
+https://gestionbasesdatos.readthedocs.io/es/latest/Tema4/Teoria.html#combinacion-de-tablas-join

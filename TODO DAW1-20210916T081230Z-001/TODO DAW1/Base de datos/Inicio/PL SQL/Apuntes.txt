@@ -1,0 +1,1 @@
+https://gestionbasesdatos.readthedocs.io/es/latest/Tema5/Teoria.html#introduccion-a-pl-sql

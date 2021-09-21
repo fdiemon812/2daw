@@ -1,0 +1,5 @@
+https://medium.com/el-acordeon-del-programador/consultando-la-hora-desde-ntp-c18b6c24fe29
+
+NTP SERVER
+
+https://gist.github.com/HashRaygoza/6c09159bd3c7b924ef85e5c8d2846bfb
