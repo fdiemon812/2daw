@@ -17,7 +17,7 @@ public class GeneradorSolar extends AbsGenerador implements IMonetizable {
 		this.numPaneles=numPaneles;
 		this.metrosTotales=metrosTotales;
 		
-		if(tipo!="FOTOVOLTAICO" && tipo!="HIBRIDO" && tipo!="TERMICO") {
+		if(!tipo.equals("FOTOVOLTAICO") && !tipo.equals("HIBRIDO") && !tipo.equals("TERMICO")) {
 			throw new TipoIncorrectoException();
 			
 			}else {

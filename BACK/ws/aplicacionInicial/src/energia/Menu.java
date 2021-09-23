@@ -53,8 +53,8 @@ public class Menu {
 			Double potencia=Double.parseDouble(sc.nextLine());
 			
 			System.out.println("Introduce el tipo: FOTOVOLTAICO, HIBRIDO, TERMICO");
-			String tipo=String.valueOf(sc.nextLine());
-			System.out.println(tipo);
+			String tipo=sc.nextLine();
+			
 			
 			
 			System.out.println("Introduce el numero de palenes");
@@ -69,7 +69,7 @@ public class Menu {
 			try {
 				
 				
-			 gen = new GeneradorSolar(localidad, potencia, "FOTOVOLTAICO", 
+			 gen = new GeneradorSolar(localidad, potencia, tipo, 
 						numPaneles, metrosTotales);
 				
 				
