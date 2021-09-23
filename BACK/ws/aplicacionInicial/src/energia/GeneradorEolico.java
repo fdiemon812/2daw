@@ -5,7 +5,15 @@ public class GeneradorEolico extends AbsGenerador implements IMonetizable {
 	private int numeroAspas;
 	 
 	
-	
+	/**
+	 * 
+	 * comentario de prueba
+	 * 
+	 * 
+	 * @param localidad
+	 * @param potencia
+	 * @param numeroAspas
+	 */
 	public GeneradorEolico(String localidad,  Double potencia, int numeroAspas) {
 		super(localidad, potencia);
 		this.numeroAspas=numeroAspas;
@@ -21,7 +29,10 @@ public class GeneradorEolico extends AbsGenerador implements IMonetizable {
 	}
 
 
-
+	/**
+	 * 
+	 * @return
+	 */
 	public int getNumeroAspas() {
 		return numeroAspas;
 	}

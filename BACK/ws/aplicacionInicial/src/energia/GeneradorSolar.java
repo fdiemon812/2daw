@@ -81,4 +81,8 @@ public class GeneradorSolar extends AbsGenerador implements IMonetizable {
 		return precioEnergia*getPotencia()*getNumPaneles();
 	}
 
+
+
+	
+
 }

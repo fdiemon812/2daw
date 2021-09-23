@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.chrono.ChronoLocalDate;
 import java.util.Objects;
 
-public abstract class AbsGenerador {
+public abstract class AbsGenerador implements Comparable<AbsGenerador>{
 
 	private int codigo;
 	private String localidad;
@@ -19,10 +19,6 @@ public abstract class AbsGenerador {
 	
 	
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(codigo);
-	}
 
 
 	public AbsGenerador(String localidad,  Double potencia) {
@@ -34,6 +30,10 @@ public abstract class AbsGenerador {
 		CONTADOR_CODIGO++;
 	}
 	
+	
+	
+	
+
 	public Double getPotencia() {
 		return potencia;
 	}
@@ -70,5 +70,28 @@ public abstract class AbsGenerador {
 		AbsGenerador other = (AbsGenerador) obj;
 		return codigo == other.getCodigo();
 	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(codigo);
+	}
 	
+	
+	
+	@Override
+	public int compareTo(AbsGenerador o) {
+		int result=0;
+		
+		if(this.getFechaInicio().isBefore(o.getFechaInicio())) {
+			
+			result=-1;
+			
+		}else if(this.getFechaInicio().isAfter(o.getFechaInicio())) {
+			result=1;
+			
+
+	}
+		return result;
+	}
+
+
 }
