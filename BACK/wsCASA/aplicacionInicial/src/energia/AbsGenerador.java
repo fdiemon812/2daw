@@ -18,9 +18,7 @@ public abstract class AbsGenerador implements Comparable<AbsGenerador>{
 	
 	
 	
-	public AbsGenerador() {
-		
-	}
+
 
 
 	public AbsGenerador(String localidad,  Double potencia) {
@@ -45,11 +43,6 @@ public abstract class AbsGenerador implements Comparable<AbsGenerador>{
 	public int getCodigo() {
 		return codigo;
 	}
-	
-	public void setCodigo(int codigo) {
-		this.codigo=codigo;
-	}
-	
 	public String getLocalidad() {
 		return localidad;
 	}

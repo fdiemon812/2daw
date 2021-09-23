@@ -23,12 +23,6 @@ public class GeneradorEolico extends AbsGenerador implements IMonetizable {
 
 
 
-	public GeneradorEolico() {
-		// TODO Auto-generated constructor stub
-	}
-
-
-
 	@Override
 	public String toString() {
 		return " GeneradorEolico [numeroAspas=" + numeroAspas + super.toString()+"]";

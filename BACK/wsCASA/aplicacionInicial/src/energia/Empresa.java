@@ -20,38 +20,20 @@ public class Empresa {
 	}
 
 
-	/**
-	 * Agrega generadores a la lista de la empresa
-	 * @param g
-	 * @return devuelve true si se ha agregado con exito
-	 */
+	
 	public boolean addGenerador(AbsGenerador g) {
 		
 		return listaGeneradores.add(g);
 	}
 	
-	/**
-	 * Borra generador
-	 * @param codigo
-	 * @return devuelve true si se ha borrado con exito
-	 */
-public boolean delGenerador(int codigo) {
+	
+public boolean delGenerador(AbsGenerador g) {
 		
-	
-	AbsGenerador generadorSolarABorrar=new GeneradorSolar();
-	generadorSolarABorrar.setCodigo(codigo);
-	
-	AbsGenerador generadorEolicoABorrar=new GeneradorEolico();
-	generadorEolicoABorrar.setCodigo(codigo);
-	
-		return listaGeneradores.remove(generadorEolicoABorrar) || listaGeneradores.remove(generadorSolarABorrar) ;
+		return listaGeneradores.remove(g);
 	}
 
 
-	/**
-	 * Ordena la lista de generadores por fecha de creación y los concatena en un string.
-	 * @return devuelve un string
-	 */
+
 	public String mostrarGeneradorFecha() {
 		
 		ArrayList<AbsGenerador> listaFecha = new ArrayList<AbsGenerador>(listaGeneradores);
@@ -69,10 +51,7 @@ public boolean delGenerador(int codigo) {
 	
 	
 	
-	/**
-	 * Ordena la lista de generadores por localidad y fecha de creación. Los concatena en un string.
-	 * @return devuelve un string
-	 */
+	
 	public String mostrarGeneradorLocalidad() {
 		
 		ArrayList<AbsGenerador> listaLocalidad = new ArrayList<AbsGenerador>(listaGeneradores);
@@ -89,11 +68,7 @@ public boolean delGenerador(int codigo) {
 	return sb.toString();
 	}
 	
-	/**
-	 * Comprueba si existe algun generador en la localidad
-	 * @param localidad
-	 * @return true si existe
-	 */
+	
 	public boolean generadorLocalidad(String localidad) {
 		boolean result=false;
 		
@@ -113,35 +88,6 @@ public boolean delGenerador(int codigo) {
 		return result;
 		
 	}
-	
-	/**
-	 * Calcula el dinero total que sale de la energia producida entre los distintos generadores
-	 * @param precioEnergia
-	 * @return Double, dinero producido
-	 */
-	
-	public Double calculaDinero(Double precioEnergia) {
-		
-		Double result=0.0;
-		
-		for(AbsGenerador generador:listaGeneradores) {
-			
-		if(generador instanceof GeneradorEolico) {
-			
-			result=result+((GeneradorEolico)generador).dinero(precioEnergia);
-			
-		}else {
-			
-			result=result+((GeneradorSolar)generador).dinero(precioEnergia);
-			
-		}
-			
-			
-		}
-		
-		return result ;
-	}
-
 
 
 	public String getNombreEmpresa() {

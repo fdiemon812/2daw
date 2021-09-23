@@ -33,12 +33,6 @@ public class GeneradorSolar extends AbsGenerador implements IMonetizable {
 
 
 
-	public GeneradorSolar() {
-		// TODO Auto-generated constructor stub
-	}
-
-
-
 	@Override
 	public String toString() { 							//Dividimos para calcular coeficiente solar al mostrar
 		return "GeneradorSolar [tipo=" + tipo + ", coeficiente solar=" + (metrosTotales/numPaneles) + super.toString() +"]";
