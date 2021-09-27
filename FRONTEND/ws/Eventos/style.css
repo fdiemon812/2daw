@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+
+.verde{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+#barra{
+    margin-left: 500px;
+}
