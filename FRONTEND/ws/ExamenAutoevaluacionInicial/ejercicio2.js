@@ -8,18 +8,20 @@ borrar.addEventListener("click", delEmpleado);
 modificar.addEventListener("click", updateEmpleado);
 
 
+
 function addEmpleado(){
 
+
+    //Extraemos los valores de los inputs
     let apellido=document.getElementById("apellidos").value;
     let nombre=document.getElementById("nombre").value;
     let dni= document.getElementById("dni").value
 
+
+
+    //Obtenemos la tabla y creamos una fila con sus respectivas columnas
     let tabla= document.getElementById("tab");
-
-
     let fiNueva =document.createElement("tr");
-
-
     let idEmpleado = document.createElement("td")
     let nombre2= document.createElement("td");
     let dni2= document.createElement("td");
@@ -28,7 +30,7 @@ function addEmpleado(){
     
     let numeroEmpleado= tabla.getElementsByTagName("tr").length
 
-
+    //damos valores a cada columna
     nombre2.innerHTML = nombre;
     apellido2.innerHTML = apellido;
     dni2.innerHTML = dni;
@@ -36,6 +38,8 @@ function addEmpleado(){
 
     let comprobador=0;
     let i=0;
+
+    //Recorremos filas para comprobar si existe
     while(i<numeroEmpleado && comprobador==0){
         
 
@@ -46,6 +50,7 @@ function addEmpleado(){
         i++;
     }
     
+    //Si no existe, añadimos la fila
     if(comprobador==0){
 
         
@@ -74,7 +79,7 @@ function addEmpleado(){
 
 
 function delEmpleado(){
-
+    //Igual que en el anterior
     let dniABorrar= document.getElementById("dni").value
     let numEmpleados = document.getElementById("tab").getElementsByTagName("tr").length
     let filas=document.getElementById("tab").getElementsByTagName("tr");
@@ -94,7 +99,7 @@ function delEmpleado(){
     
         cab.innerHTML= "NUMERO TOTAL DE EMPLEADOS:  "+numEmpleados2;
 
-            
+            //Recorremos desde la fila borrada hasta la última para actualizar el numero de empleado en caso de borrado
         for(j=i;j<numEmpleados;j++){
 
             document.getElementById("tab").getElementsByTagName("tr")[j].querySelector("td:nth-child(1)").innerHTML = j;

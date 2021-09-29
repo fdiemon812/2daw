@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+
+<link rel="stylesheet" href="formulario.css">
+<body>
+    
+<form action="http://www.iesjacaranda.es/lmsgi/resultado.php" method="GET">
+    
+    
+    
+    <div id="cabecera">
+        
+       
+</div>
+
+<div id="centro">
+
+<div></div>
+<div class="marco">
+
+
+<br>
+    <label for="nombre"> Nombre  </label>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+
+    <label for="apellidos"> Apellidos  </label>
+    <input type="text" id="apellidos" name="apellidos" >
+    <br>
+
+
+
+    <label for="nacionalidad"> Nacionalidad  </label>
+    <select name="nacionalidad" id="nacionalidad">
+
+
+
+        <option selected value="0">--Elige una opción--</option>
+
+        <option value="1">España</option>
+        <option value="2">País dentro de la UE</option>
+        <option value="3">País externo a la UE</option>
+
+    </select>
+    <br>
+
+    <div class="oculto" id="addni">
+
+    <br>
+    <label for="dni"> DNI  </label>
+    <input type="text" id="dni" name="DNI">
+    <br>
+
+    </div>
+
+    <div class="oculto" id="addpasaporte">
+
+        <br>
+        <label for="Pasaporte"> Pasaporte  </label>
+        <input type="text" id="Pasaporte" name="Pasaporte">
+        <br>
+        
+    </div>
+
+
+
+    <label for="sexo"> Sexo </label>
+    
+    <input type="radio" id="sexo" name="sexo" value="Hombre">Hombre
+    <input type="radio" id="sexo" name="sexo" value="Mujer">Mujer
+    <br>
+
+
+   
+    <label for="correo"> Correo Electronico  </label>
+    <input type="email" id="correo" name="email">
+    <br>
+
+
+    
+    <label for="fecha"> Fecha Nacimiento  </label>
+    <input type="date" id="fecha" name="fecha de nacimiento">
+    <br>
+
+
+    
+
+
+
+    <br>
+    <label for="terminos"> Acepta los términos y condiciones  </label>
+    <input type="checkbox" id="terminos" name="terminos">
+   
+    <br>
+
+    
+
+    <div class="botones">
+
+
+        <input type="reset" value="Borrar">
+        <input type="submit" value="Enviar">
+    </div>
+
+    
+
+
+</div>
+<div></div>
+
+
+</div>
+
+<div id="abajo">
+
+
+</div>
+
+
+
+</form>
+
+</body>
+
+
+<script src="formulario.js"></script>
+
+</html>
