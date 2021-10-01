@@ -20,20 +20,46 @@ if(valor==1 || valor==2){
 
 
 document.getElementById("nombre").addEventListener("change", compruebaNombre);
-document.getElementById("apellidos").addEventListener("change", compruebaApellido);
-document.getElementById("dni").addEventListener("change", compruebaDni);
-document.getElementById("pasaporte").addEventListener("change", compruebaPasaporte);
-document.getElementById("email").addEventListener("change", compruebaEmail);
-document.getElementById("terminos").addEventListener("change", compruebaTerminos);
+// document.getElementById("apellidos").addEventListener("change", compruebaApellido);
+// document.getElementById("dni").addEventListener("change", compruebaDni);
+// document.getElementById("pasaporte").addEventListener("change", compruebaPasaporte);
+// document.getElementById("email").addEventListener("change", compruebaEmail);
+// document.getElementById("terminos").addEventListener("change", compruebaTerminos);
 
 
-let formValid = {
-    nombre: false,
-    apellidos: false,
-    dni: false,
-    pasaporte: false, 
-    email: false,
-    terminos: false
+// let formValid = {
+//     nombre: false,
+//     apellidos: false,
+//     dni: false,
+//     pasaporte: false, 
+//     email: false,
+//     terminos: false
   
+
+//}
+
+function compruebaNombre(){
+    console.log("entra")
+
+    let name = document.getElementById("nombre").value;
+
+
+    let nombreCorrecto =/^[a-zñáéíóú ]+$/gi;
+
+
+
+
+    if(!nombreCorrecto.test(name)){
+        console.log("entra if")
+
+        document.getElementById("nombre").classList.add("error")
+
+    }else{
+        
+        document.getElementById("nombre").classList.remove("error")
+
+    }
+
+
 
 }

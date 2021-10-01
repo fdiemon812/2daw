@@ -38,3 +38,7 @@ div label{
 
 
 .oculto{display: none;}
+
+.error{
+      border-color: red;
+}
