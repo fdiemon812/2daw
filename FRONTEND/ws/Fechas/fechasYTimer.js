@@ -10,7 +10,8 @@ document.getElementById("fechaPago").addEventListener("change", calculaRetraso);
 document.getElementById("diasRetraso").addEventListener("change", calculaRetraso);
 
 window.setInterval(reloj, 1000);
-window.setInterval(alarma, 1000);
+
+
 
 
 function escribeDateTime(){
@@ -88,9 +89,12 @@ function reloj(){
     document.getElementById("crono").innerText = "Hoy es " +fecha.getDate().toString() +" - "+fecha.getMonth().toString() +" - "+fecha.getFullYear().toString() +" y son las " + fecha.getHours().toString()+":" + fecha.getMinutes() +":"+ fecha.getSeconds();
 }
 
+document.getElementById("horaAlarma").addEventListener("focusout", alarma)
+
 function alarma(){
     let fecha = new Date();
-    document.getElementById("alarma").innerText = fecha.getHours().toString()+":" + fecha.getMinutes() +":"+ fecha.getSeconds();
+    document.getElementById("alarma").innerText = fecha.getHours().toString()+":" +
+     fecha.getMinutes() +":"+ fecha.getSeconds();
 
     let input= document.getElementById("horaAlarma").value
 

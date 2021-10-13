@@ -1,0 +1,25 @@
+GET https://jsonplaceholder.typicode.com/users
+
+Todas con id 55
+
+https://jsonplaceholder.typicode.com/todos/55
+
+
+Todas con id 201
+
+https://jsonplaceholder.typicode.com/todos?id=201
+
+
+Crear nueva tarea
+POST
+https://jsonplaceholder.typicode.com/todos
+{
+    "userId": 1,
+    "title": "PRUEBA",
+    "completed": false
+  }
+
+
+
+
+
