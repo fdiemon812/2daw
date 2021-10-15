@@ -1,4 +1,17 @@
-
+@media all{
+    
+        body{
+            text-align: left;
+        }
+    
+    p{
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
+        
+    }
+    
+}
 @media screen {
      
         body{
@@ -14,16 +27,5 @@
     }
 
 
-@media all{
 
-    p{
-        font-weight: bold;
-        font-size: 20px;
 
-    }
-
-    body{
-        text-align: left;
-    }
-
-}
