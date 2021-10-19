@@ -33,3 +33,20 @@ border-color: #25b120;
 border-color: rgb(219, 9, 9);
 
 }
+
+
+table, td {
+text-align: center;
+border: rgb(5, 5, 5);
+border-style: solid;
+border-collapse: collapse;
+padding: 10px;
+
+
+}
+
+#enviar, #textoArticulos{
+    text-align: center;
+    
+    
+}

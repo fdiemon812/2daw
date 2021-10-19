@@ -6,14 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<link rel="stylesheet" href="index.css">
 <body>
     
-<table>
+
+
+    <div>
+
+    <form>
+
+        <header>
+    
+            <b> ESCRIBE TU ARTICULO</b>
+    
+        </header>
+        <div>
+            <br>
+        </div>
+        <div id="textoArticulos">
+            
+            <textarea name="articulo" id="articulo" cols="30" rows="10"></textarea>
+        </div>
+
+
+        <div id="enviar">
+            <input type="button" name="add" id="add" value="add">
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <select name="autor" id="autor">
+
+
+                <!-- <option value="hola">autorNombre</option> -->
+            </select>
+        </div>
+       
+        <br>
+        <br><br><br><br>
+    
+    
+    
+    
+    
+    
+        </form>
+
+    </div>
+
+
+<table id="tabla" align="center" border="1">
 
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>AUTOR</td>
+        <td>TITULO</td>
+        <td>CONTENIDO</td>
     </tr>
 
 
@@ -29,6 +74,6 @@
 </body>
 
 
-<script src=""></script>
+<script src="listaPost.js"></script>
 
 </html>

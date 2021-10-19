@@ -1,7 +1,6 @@
 //COMPROBACIONES FORMULARIO
 
 document.getElementById("nombre").addEventListener("change", comprobarNombre)
-document.getElementById("fecha").addEventListener("change", comprobarFecha)
 document.getElementById("tlf").addEventListener("change", comprobarTelefono)
 document.getElementById("mail").addEventListener("change", compruebaEmail)
 
@@ -11,7 +10,6 @@ document.getElementById("mail").addEventListener("change", compruebaEmail)
 let formularioValido ={
 
     nombre: false,
-    fecha: false,
     tlf: false,
     mail: false
 
@@ -95,32 +93,6 @@ function compruebaEmail(){
 }
 
 
-function comprobarFecha(){
-
-    let fecha= document.getElementById("fecha").value
-    let fechaCorrecta= new Date(fecha);
-    let fechaActual= new Date();
-
-
-    if(fechaCorrecta>=fechaActual){
-
-
-
-        document.getElementById("fecha").classList.remove("bien")
-        document.getElementById("fecha").classList.add("error")
-       
-        formularioValido.fecha=false;
-
-
-    }else{
-       
-        document.getElementById("fecha").classList.remove("error")
-        document.getElementById("fecha").classList.add("bien")
-        formularioValido.fecha=true;
-
-    }
-}
-
 
 document.getElementById("enviar").addEventListener("click", comprobarCampos)
 
@@ -135,6 +107,41 @@ function comprobarCampos(ev){
 
         alert("Hay errores en el formulario")
        
+    }else{
+            ev.preventDefault();
+        
+        const nuevaPersona={
+            name:document.getElementById("nombre").value,
+            tlf:document.getElementById("tlf").value,
+            mail:document.getElementById("mail").value
+
+        }
+
+
+        const peticion=new XMLHttpRequest();
+        peticion.open('POST', 'http://localhost:3000/profile');
+        peticion.setRequestHeader('Content-type', 'application/json'); 
+        peticion.send(JSON.stringify(nuevaPersona)); 
+
+
+        peticion.addEventListener('load', compruebaCarga);
+        
+        
+        function compruebaCarga(){
+
+            if(peticion.status==201){
+                window.location.href = "listaPost.html"
+            }else{
+                
+                alert("Los datos no se han enviado correctamente")
+            }
+            
+        }
+
+        
     }
 
 }
+
+
+
