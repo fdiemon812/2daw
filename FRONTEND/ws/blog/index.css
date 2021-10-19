@@ -6,6 +6,7 @@ font-style: red;
 }
 
 
+
 div label{
     
 
@@ -15,4 +16,20 @@ div label{
     margin-left: 30%;
     margin-right: 10%;
     margin-bottom: 15px;
+}
+
+
+.bien{
+
+border-color: #25b120;
+
+
+}
+
+.error{
+
+
+
+border-color: rgb(219, 9, 9);
+
 }
