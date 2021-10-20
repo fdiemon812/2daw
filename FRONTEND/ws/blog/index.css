@@ -7,6 +7,9 @@ font-style: red;
 
 
 
+ 
+
+
 div label{
     
 
@@ -45,8 +48,18 @@ padding: 10px;
 
 }
 
-#enviar, #textoArticulos{
+label{
+
+    width: 0px;
+    margin-right: 0px;
+}
+span label{
     text-align: center;
     
+}
+
+#botonesEnviar, #textoArticulos, #cabeceraTitulo{
+    text-align: center;
     
+  
 }
