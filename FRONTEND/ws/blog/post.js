@@ -24,3 +24,25 @@ peticion2.addEventListener('load', function() {
         alert("Error en la lectura de datos");
     }
 })
+
+
+const peticion = new XMLHttpRequest();
+peticion.open('GET', 'http://localhost:3000/comments');
+peticion.send();
+peticion.addEventListener('load', function() {
+
+    //EN REALIDAD EL LOAD YA COMPRUEBA SI HA SIDO ENVIADO CORRECTAMENTE, NO HACE FALTA EL IF
+    if (peticion.status===200) {
+        let comentario=JSON.parse(peticion.responseText); 
+    comentarios.forEach(coment => {
+
+
+        //si no entra coneguir parametro como arriba
+        if(coment.postId==idPost){
+
+            //añadir a filas
+
+        }
+        
+        });
+    }})
