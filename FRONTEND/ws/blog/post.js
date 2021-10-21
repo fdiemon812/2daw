@@ -14,8 +14,8 @@ peticion2.addEventListener('load', function() {
 
         
         
-    document.getElementsByTagName("header")[0].innerHTML=listaPost[posicionPost].titulo;          
-    document.getElementsByTagName("p")[0].innerHTML=listaPost[posicionPost].articulo;    
+    document.getElementById("cabecera").innerHTML=listaPost[posicionPost].titulo;          
+    document.getElementById("parrafo").innerHTML=listaPost[posicionPost].articulo;    
 
         
     } else {
@@ -23,6 +23,10 @@ peticion2.addEventListener('load', function() {
     }
 })
 
+let valores2= window.location.search;
+
+const parametros2= new URLSearchParams(valores2)
+let idPost2= parametros2.get('id');
 
 const peticion = new XMLHttpRequest();
 peticion.open('GET', 'http://localhost:3000/comments');
@@ -34,10 +38,6 @@ peticion.addEventListener('load', function() {
 
 
      let comentarios=JSON.parse(peticion.responseText); 
-     let valores2= window.location.search;
-
-     const parametros2= new URLSearchParams(valores2)
-     let idPost2= parametros2.get('id');
     
     
     
@@ -65,37 +65,46 @@ peticion.addEventListener('load', function() {
     document.getElementById("enviar").addEventListener("click", addFila);
 
     function addFila(ev){
+       
         ev.preventDefault();
     
     
-    const peticion3=new XMLHttpRequest();
+             const peticion3=new XMLHttpRequest();
             peticion3.open('POST', 'http://localhost:3000/comments');
             peticion3.setRequestHeader('Content-type', 'application/json'); 
     
+
+
+            let fecha= new Date().toDateString() ;
+
+
         const nuevoPosts={
     
-        "titulo": document.getElementById("titulo").value,
-          "autor": document.getElementById("listaAutores").value,
-          "articulo":document.getElementById("articulo").value
+
+
+        "contenido": ""+document.getElementById("comentario").value,
+        "fecha": fecha,
+        "postId": idPost2
     
+
+
         }
-    
             peticion3.send(JSON.stringify(nuevoPosts)); 
+            //NO DEBERIA REFRESCAR LA WEB, no lo entiendo
     
-    
-            peticion3.addEventListener('load', compruebaPost);
+            // peticion3.addEventListener('load', compruebaPost);
             
             
-            function compruebaPost(){
+            // function compruebaPost(){
                
-                if(peticion3.status==201){
-                    window.location.href = "listaPost.html"
-                }else{
+            //     if(peticion3.status==201){
+            //         window.location.href = "post.html"
+            //     }else{
                     
-                    alert("Los datos no se han enviado correctamente")
-                }
+            //         alert("Los datos no se han enviado correctamente")
+            //     }
                 
-            }
+            // }
     
         
 
