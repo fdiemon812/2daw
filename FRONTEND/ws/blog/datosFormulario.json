@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "titulo": "gola",
+      "autor": "flavio",
+      "articulo": "hola",
+      "id": 7
+    },
+    {
+      "titulo": "asdasddada",
+      "autor": "flavio",
+      "articulo": "hola",
+      "id": 11
+    },
+    {
+      "titulo": "Error",
+      "autor": "flavio",
+      "articulo": "Funciona!!",
+      "id": 13
+    },
+    {
+      "titulo": "HOLA",
+      "autor": "lola",
+      "articulo": "CARACOLA",
+      "id": 14
+    },
+    {
+      "titulo": "",
+      "autor": "flavio",
+      "articulo": "",
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "contenido": "hola caracolillaaaaaaaaaaaaaaa",
+      "fecha": "01-02-20",
+      "postId": "7"
+    },
+    {
+      "id": 2,
+      "contenido": "hola a",
+      "fecha": "01-02-20",
+      "postId": "11"
+    },
+    {
+      "id": 3,
+      "contenido": "adios a",
+      "fecha": "01-02-20",
+      "postId": "11"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "name": "flavio",
+      "tlf": "123456789",
+      "mail": "hola@hola.co"
+    },
+    {
+      "name": "lola",
+      "tlf": "123456789",
+      "mail": "hola@hola.co",
+      "id": 2
+    }
+  ]
+}
