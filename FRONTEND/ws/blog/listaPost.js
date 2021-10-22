@@ -123,12 +123,12 @@ const peticion3=new XMLHttpRequest();
         
         function compruebaPost(){
            
-            if(peticion3.status==201){
-                window.location.href = "listaPost.html"
-            }else{
+            // if(peticion3.status==201){
+            //     window.location.href = "listaPost.html"
+            // }else{
                 
-                alert("Los datos no se han enviado correctamente")
-            }
+            //     alert("Los datos no se han enviado correctamente")
+            // }
             
         }
 

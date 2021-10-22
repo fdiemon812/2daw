@@ -92,19 +92,19 @@ peticion.addEventListener('load', function() {
             peticion3.send(JSON.stringify(nuevoPosts)); 
             //NO DEBERIA REFRESCAR LA WEB, no lo entiendo
     
-            // peticion3.addEventListener('load', compruebaPost);
+            peticion3.addEventListener('load', compruebaPost);
             
             
-            // function compruebaPost(){
+            function compruebaPost(){
                
-            //     if(peticion3.status==201){
-            //         window.location.href = "post.html"
-            //     }else{
+                if(peticion3.status==201){
+                    window.location.href = "post.html"
+                }else{
                     
-            //         alert("Los datos no se han enviado correctamente")
-            //     }
+                    alert("Los datos no se han enviado correctamente")
+                }
                 
-            // }
+            }
     
         
 
