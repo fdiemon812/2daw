@@ -1,0 +1,263 @@
+Diferencia entre bienes y servicios --> los bienes se pueden acumular y los servicios no
+
+STOCK DE SEGURIDAD --> es un número fijo que siempre tenemos que tener en nuestra empresa de todos los materiales que vamos a utilizar. A este stock solo recurriremos si tengo un problema con el proveedor (porque haya algún problema con el transportita por ejemplo) y el pedido se retrasa. Accederé a este stock para cumplir los plazos con el cliente.
+
+GESTIÓN DE STOCK --> saber los días que tardan en taerme el pedido, el stock que tengo y cuándo tengo que volver a hacer el pedido.
+
+NIVELES DE STOCK --> ahora es mucho más bajo que antes, debido a que las comunicaciones ahora son muy rápidas y en poco tiempo puedes tener de nuevo el producto. 
+
+PLAN DE PRODUCCIÓN --> quién lo va a hacer, cantidades y cuándo
+
+TEORÍA A, B Y C --> de lo barato tenemos muchas unidades y de lo más caro, tenemos pocas
+
+COSTES FIJOS --> alquiler del local; son aquellos gastos que no cambian en función del volumen de ventas sino que siempre van a permanecer. 
+(La luz tiene una parte fija y una variable que cambiará en función del consumo de mi empresa). 
+(El personal que yo tengo contratado todo el año es un coste fijo, pero por ejemplo según qué negocio y qué campaña, tendré que contratar más personal eventual)
+COSTES VARIABLES --> son aquellos costes que van a variar en función de mi volumen de ventas. Si yo vendo más, tendré que comprar más.
+COSTE TOTAL DE LA EMPRESA --> costes fijos + costes variables
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+UMBRAL DE RENTABILIDAD O PUNTO MUERTO --> es la cantidad de producto que como mínimo debe vender la empresa para cubrir los costes.
+Se dice punto muerto porque en dicha cantidad el beneficio es 0. Umbral de rentabilidad porque a partir de dicha cantidad, se obtienen beneficios.
+
+FÓRMULA: Q [cantidad vendida] = Costes fijos / (Precio - coste variable por unidad)
+
+CASO PRÁCTICO: 
+	Empresa de camisetas.
+		- Alquiler por local: 300€.
+		- Compra de una camiseta al proveedor chino: 3€.
+		- Precio de venta de tu camiseta: 20€.
+		- Luz del local: Parte fija 40€ y parte variable por cada camiseta de 0.5€.
+		- IAE, la proporción de la cuota mensual asciende a 40€.
+		
+		coste fijo --> 300 + 40 + 40
+		precio --> 20
+		coste variable --> 3 + 0.5
+	
+		380/20-(3+0.5)
+		380/16.5 = 23.05 --> 24 camisetas tengo beneficios (con 23 perdida)
+		
+CASO PRÁCTICO 2:
+	Empresa de desarrollo y diseño web de dos socios
+		- Alquiler de equipos: 500€
+		- Alquiler local: 0€
+		- Darse de alta los dos: 500€ (250 cada uno)
+		- IAE: 60€
+		- Cada proyecto lo venden a un precio fijo de 1000€
+		
+		coste fijo --> 500 + 500 + 60 
+		precio --> 1000€
+		coste variable --> no
+		
+		1060/1000 --> 1.06 --> 1 proyecto tiene perdida, 
+		necesitan 2 para tener beneficios
+		
+		fórmula de beneficio --> ingresos - coste total
+						2000 - 1060 = 940€ 
+
+CASO PRÁCTICO 3:
+	Administración fincas:
+		- Alquiler oficina: 1000€
+		- Trabajador fijo: 1200€
+		- Seg social trabajador: 300€
+		- Luz y otros suministros fijos: 150€
+		- Gasto en papel: 20€ por cada comunidad que lleves
+		- Comunicación con cada comunidad: 5€
+		- Pleitos con cada comunidad: 50€
+		- Precio de mi servicio: 200€
+		
+		Coste fijo: 1000+1200+300+150 --> 2650
+		Coste variable: 20+5+50 --> 75
+		Precio: 200
+		
+		2650/(200-75) ---> 2650/125  = 21.2 --> tengo que llevar 22 comunidades para obtener algo de beneficio
+		
+		
+------------------------------------------------------------------------------------------------------------------------------
+Inversión --> gastos que a largo plazo serán beneficio
+Gasto --> puede ser a diario, por minutos o mensual y no genera beneficios, es algo necesario.
+Ejemplos de inversión: que compres un ordenador, mobiliario, equipos... [el coche si lo necesito para visitar clientes y darme a conocer e suna inversión; la gasolina es un gasto]
+
+En nuestro plan de empresa calcularemos (hipotéticamente) la inversión inicial que necesitaremos para nuestro negocio. Proyectar en nuestro plan de empresa las inversiones y los gastos.
+
+FINANCIACIÓN:
+
+	- Préstamo personal --> quien responde ante la deuda es la persona. Mientras más ingresos tengas, mejores condiciones te darán.
+	Hoy en día se están moviendo entre un 4% y un 22% (normalmente hoy en día lo más normal es entre un 8%TAE -es lo que tu realmente pagas, 		hay que fijarse en el TAE no el TIN)
+	Las tarjetas tipo COFIDIS rondan el 22%. 
+	Al igual que para comprar un coche, para montar el negocio suelen pedirse préstamos personales.
+	Financiamos nuestro negocio, el coche, las vacaciones...
+	El tipo de interés depende del tipo de perfil que seas para el cliente. 
+	Es lineal, de la cuota que tu pagas siempre pagarás lo mismo de capital (lo que debes) que de interés.
+	
+	- Hipoteca --> tiene que haber un elemento patrimonial. Tu tienes que tener un patrimonio previo (por ejemplo una casa) para responder a 		la deuda (cuando compro una casa es la propia casa que estoy comprando la que responde a la deuda)
+	En la hipoteca pagas 80% de interés y un 20% de capital, es decir que al final acabas pagando casi todo de interés. 
+	100.000 euros de hipoteca, la casa cuesta 140 y los otros 40 los pongo yo. Pues a los 5 años, puedes mirar la hipoteca y a lo mejor te 		quedan todavía 95.000 por pagar. En la hipoteca lo que hay que elegir siempre es disminuir tiempo, porque así le pago menos interes al 		banco.
+	
+	
+	La cuota no puede suponer más del 30% de tus ingresos mensuales. Es decir, si gano 1000€ al mes, la cuota a pagar no puede ser mayor de 		300€. Esto es así tanto para préstamos como para hipotecas.
+	Aparte de los intereses, en ambas, me van a cobrar la comisión de apertura (0.5-1%). Este coste te lo suman a la cantidad que has pedido.
+	También está la comisión por cancelación anticipada (por pagar antes de tiempo)
+	En la hipoteca acabas pagando casi el doble de lo que pides, si pido 100, pagaré unos 140
+	
+
+Hay dos tipos de interés:
+- Interés variable --> el BCE le vende el dinero a nuestros bancos y nuestros bancos a nosotros (clientes). EL banco te vende el dinero a ti a lo que él ha pagado (euribor) más al interés que te ponga. El problema es que el euribor es variable, por eso hay personas que empezaron a pagar 300 al mes y en la crisis del ladrillo, el euribor subió tanto que llegaron a pagar hasta 1000.
+El euribor volverá a subir poco a poco, porque está habiendo una recuperación económica pero no va a subir de repente de un año para otro en 1 año. Esto afecta más a la cantidad de dinero que pidas de hipoteca. 
+- Interés fijo --> no va a variar pero te ponen un porcentaje más alto. Si el banco te pone un 4% de interés es porque el banco sabe de sobra que en el tiempo que va a durar tu hipoteca el euribor no va a subir hasta un 4%.
+- Interés mixto --> durantes los primeros años fijo y a partir de los siguientes años, variable. Esto es así porque es más difícil saber cómo estará el euribor en los dos años siguientes que en los 20 siguientes.
+
+¿Qué porcentaje de una compra tengo que tener ahorrado para comprar?
+El 20% del precio total de la casa lo tienes que tener tú ahorrado. Si la casa vale 150.000, tienes que tener ahorrados 30.000. 
+Hay un sistema llamado CIRBE que le dice a los bancos la cantidad de deudas que tienes. Tienes una hipoteca que la firmas el día 3 y dos días antes pides un préstamo personal. Como CIRVES no se actualiza tan rápidamente, podrás tener los 30.000 a través del pago personal. 
+Aparte del 20% del precio de la casa que necesito tener ahorrados, necesito:
+- notaría --> para un piso de 100-120, unos 600 o así de notaría. Depende de las hojas de escritura que tenga el inmueble.
+- registro --> otros 300-400
+- Gestoría --> 400
+- ITP (IMPUESTO DE TRANSMISIÓN PATRIMONIAL)  --> si la vivienda es de segunda mano 3.5% (primera vivienda y menor de 35 años, si son 150.000 la vivienda, pues serían unos 5000€) o 8% 
+- IVA --> lo pagas si la vivienda es de nueva construcción
+
+
+Hipoteca de 120.000 y tengo un avalista, cuando no pueda pagar, el banco primero embarga la vivienda hipotecada, si con eso no recupera la deuda que existe, procederá a exigir el pago al avalista, si este no puede pagarlo proceden a embargar lo que tenga el avalista (su casa o lo que sea que tengan de patrimonio) --> AVALISTA NO (si soy un buen perfil, les digo al banco que no, que ya me lo dará otro banco, y seguramente se sientes a hablar conmigo)
+
+¿QUIÉN ES UN BUEN PERFIL PARA EL BANCO? --> el funcionario siempre
+- Mínimo 2 personas y que van a comprar su vivienda habitual
+- Contrato de trabajo indefinido
+- Tiempo mínimo con contrato indefinido en la misma empresa 5 años (a menos que seas funcionario, que desde el primer día te lo dan)
+- Que no tengan otros préstamos
+- Que tengas el 20%+gastos ahorrados (ahorrados, no prestados de alguien)
+
+A día de hoy los que dan mejores condiciones son los bancos telemáticos. 
+
+- Responsabilidad solidaria --> significa que de la hipoteca de 120.000 no significan que sean 60.000 de cada uno sino que el banco te puede reclamar los 120 íntegros a uno de la pareja y también al otro. Es decir, que si la pareja se rompe  y uno de ellos se queda en paro y la hipoteca es de 900 (450 cada uno), el otro tiene que pagar la cantidad entera de la hipoteca. Te obligan a firmarla sí o sí, uno de los dos que ha firmado tiene que firmar sí o sí. 
+
+
+------------------------------------------------------------
+LUNES 10 DE ENERO DE 2022
+------------------------------------------------------------
+
+Las vinculaciones son cosas que nosotros contratamos con el banco que hacen que el tipo de interés sea más bajo, por ejemplo: traer la nómina a nuestro banco, contratar el seguro de vida, el seguro de hogar, plan de pensiones. El único obligatorio es el seguro de hogar, pero no es obligatorio hacerlo con el banco que te va a dar la hipoteca. Puedes firmarlo con el banco, para que te baje el interés pero al siguiente año puedes mirarlo en otro sitio, porque puede ser que te convenga más tenerlo en otro lado aunque te suban el interés de la hipoteca, es decir, se puede dar el caso de que en otro sitio te salga el seguro más barato que lo que el banco te cobra y que el porcentaje que te rebaja en intereses no sea rentable al final.
+
+Planes de pensiones --> no es recuperable hasta que te jubiles, excepto situaciones de paro prolongado, accidentes, etc (aunque estas condiciones las firmas tú al contratar el plan)
+
+Seguro de vida --> cuando no tengo hipoteca consiste que ante ciertas cosas, recibo un dinero; mientras más pague mayor cobertura tendré.
+El seguro de vida que se firma con la hipoteca lo que hace es cancelar la mitad de la hipoteca, por ejemplo con una hipoteca de 150000 de dos personas, si una de las personas fallece, el seguro de vida paga la parte de la persona fallecida. Mientras más mayor eres, más caro es el seguro de vida.
+
+FINANCIACIÓN DE LA EMPRESA:
+
+	- financiación propia --> proviene de la empresa (que la genera la propia empresa) o de los propietarios de la empresa, "reservas". De esta 		financiaciación propia hay dos tipos: externa e interna. 
+	
+		-La financiación propia externa es la que procede de los propietarios de la empresa, no ha sido generada por la empresa, proviene 		de ahorros, de préstamos de los socios... 
+		-La financiación propia interna es la que proviene de lo que genera la empresa, es el dinero que de los beneficios, yo reservo 			para los gastos de la empresa. Existen varios tipos 	de reservas: reserva legal (porque lo dice la ley) y reservas voluntarias 			(la que deciden los socios, por ejemplo de 30000€ que se ganan, los socios deciden dejar 10000 para gastos de la empresa).
+		
+	- financiación ajena --> por ejemplo cuando voy al banco y pido un préstamo.
+	
+		-Subvenciones (dinero que nos otorgan por cumplir unos requisitos a fondo perdido, es decir, que no se tienen 		que 			devolver). Las subvenciones pueden ser locales (las facilita el Ayuntamiento, se canalizan a través del centro de empresa de la 			localidad), autonómicas, estatales y europeas. 
+		-Crowdfunding, es una forma de financiación que consiste en utilizar el capital de numerosos individuos a través de 		pequeñas aportaciones.
+		-Préstamos ICO, el inconveniente es que tardan mucho tiempo. Son un tipo de financiación que puede utilizarse para cubrir 			necesidades de inversiones y liquidez. Son líneas de financiación que el Instituto de Crédito Oficial (ICO) ofrece a empresas y 			autónomos con la mediación de entidades bancarias.
+		-Leasing y renting. Lo más común son los coches, equipos informáticos potentes... Yo pago x dinero todos los meses y tengo un 			coche a mi disposición. La diferencia entre el leasing y el renting es que en el leasing, al finalizar el contrato tengo la 		opción de quedarme con el vehículo si pago x cantidad. Otra diferencia es que en el renting me olvido de todo y en el leasing no 			tanto.
+		-Factoring. Son entidades bancarias en las que el banco te compra la deuda y tienes el dinero inmediatamente. El factoring es una 		alternativa de financiamiento que convierte en efectivo hoy tus cuentas por cobrar. Esto a través de la cesión de tus facturas 			y/o endoso de cheques o letras; convirtiéndolos así en liquidez inmediata.
+		
+DIFERENCIA ENTRE PRÉSTAMO Y CRÉDITO:
+
+Mientras que en un préstamo se facilita todo el dinero de una sola vez en el momento en el que te lo conceden, en un crédito el banco pone a tu disposición una cantidad x de dinero, que puede utilizarse en función de las necesidades de la empresa en ese momento, disponiendo de toda la cantidad prestada, de una parte o nada.
+Otra diferencia tambbién es los tipos de intereses. En el préstamo pagas intereses por todo el dinero que te han han prestado. En el crédito, se pagan intereses por el dinero que se ha utilizado, no por todo el dinero que el banco te ha concedido (aunque sí puede existir una comisión de saldo no dispuesto, esto es, del dinero que no hemos utilizado).
+
+
+---------------------------------------------------------
+JUEVES 13 DE ENERO
+---------------------------------------------------------
+
+Financiación propia interna:
+	- Reservas --> 
+		- Legales --> nos la impone la normativa
+		- Voluntarias --> los socios se guardan parte de los beneficios para invertir en la empresa nuevamente
+	- Amortización: cada año que va pasando tienes que dejar un poco de dinero para que cada elemento que tienes en la empresa (equipo 	informático, coche, etc) cuando se quede obsoleto, haya dinero suficiente para su renovación. 
+	- Provisión --> es un dinero que genera la empresa y se guarda por depreciación o pérdida de dinero. (actos que puedan ocurrir)
+	
+
+Financiación ajena:
+	- Créditos de proveedores --> una empresa que financia a través de proveedores. No pagamos en el momento en el que recibimos la mercancía 	sino que pagamos después (un plazo máximo de 90 días). Siempre debes dinero a los proveedores.
+	- Letras y pagarés --> es lo mismo que la cuota mensual que tienes que pagar en un préstamo, con la diferencia de que tiene que sellarte 		la letra. Cuando las letras estén todas selladas, habrás pagado toda la deuda. El pagaré (reconocimiento de deudas y de voluntad de pago)
+
+---------------------------------------------------------
+LUNES 17 DE ENERO
+---------------------------------------------------------
+
+Subvenciones:
+	- las que provienen de la UE: son las que más documentación nos va a solicitar
+	- a nivel estatal
+	- a nivel de la CCAA
+	- a nivel de localidad
+	
+Las subvenciones suelen ser a fondo perdido, es decir, que no hay retorno. Si obtengo una subvención de 3000€, son 3000€ que no tengo que devolver, lo que sí tengo que hacer es justificarlo (por ejemplo que lo he gastado en un nuevo equipo informático)
+
+El problema de las subvenciones es encontrarlas. Normalmente las subvenciones no son a priori, lo normal es que tú montas el negocio, luego solicitas la subvención y ya te lo dan.
+
+Balance --> es una fotografía de la empresa en un momento dado. Para ello tenemos que tener claro:
+
+	- Activo: todo aquello, bienes (local, equipo informático, coche, mobiliario) y derechos (derecho de cobro) de nuestra empresa. A su vez 		el activo se divide en: (se encuentra en la columna izquierda)
+	
+		- activo no corriente: a largo plazo (todas las propiedades que adquiere la empresa y que va a estar más de un año en ella). Por 			ejemplo los terrenos, elementos de transporte, equipos informáticos.
+		
+		Las cuentas más comunes que podemos ver en el activo no corriente son las siguientes:
+			- Terreno: el solar donde se encuentra la empresa. En el IBI aparece el valor de la construcción y el valor del terreno.
+			- Construcciones: naves industriales, locales, pisos, viviendas.
+			- Maquinaria: si son una empresa industrial pues por ejemplo la máquina que embotella las botellas.
+			- Mobiliario
+			- Equipos para el proceso de la información
+			- Elementos de transporte
+			- Aplicaciones informáticas: cuando pagas el tiempo de uso de una aplicación, el poder utilizar un programa o aplicación 				es un bien que tú tienes. 
+			- Patentes y marca: las patentes es registrar una forma de hacer las cosas o un bien o un producto. Tu marca es tu imagen 				comercial.
+		
+		- activo corriente:  el que va a estar menos de un año en la empresa, por ejemplo el dinero:
+			- caja: es el dinero que tengo en el negocio:
+			- banco: es el dinero que tiene mi empresa en el banco, que se destina a comprar sumistros, pagar proveedores, etc.
+	
+	Los activos se organizan de más a menos liquidez (aquello que es más fácilmente transformarlo en dinero a lo que es menos fácil, por 		ejemplo la caja (es lo que más liquidez) a los terrenos (es lo que menos))
+	
+	- Pasivo: todas las obligaciones que tiene la empresa (que tenga que pagarle a un proveedor), es todo aquello que debo a otra persona o a 	mis propios socios; son deudas que yo tengo con terceros. (se encuentra en la columna derecha).
+	
+		- Pasivo no corriente: es aquel que está a largo plazo. Préstamo a más de 1 año.
+		
+		- Pasivo corriente: es aquel que está a corto plazo. Préstamos a menos de 1 año. Los proveedores son aquellos con los que trabajo 		normalmente.
+		
+		La gran diferencia entre proveedores y acreedores es que los proveedores tiene que ver con la actividad normal de mi empresa, los 		acreedores son con algo puntual de la empresa y que no tienen que ver con la actividad de ésta.
+	
+	- Patrimonio neto: 
+		- Capital social.
+		- Reservas (de varios tipos, legal, voluntaria).
+		- Cuenta de prioridad y ganancias (o cuenta de resultados): es el resultado entre la diferencia entre gastos y beneficios de la 			empresa.
+		
+	ACTIVO = Patrimonio Neto + Pasivo --> ecuación fundamental del balance. (Para todo lo que compres, el dinero tiene que salir de algún 		sitio)
+	
+---------------------------------------------------------
+LUNES 24 DE ENERO
+---------------------------------------------------------	
+	
+Dentro el activo no corriente nos encontramos con:
+
+	- Inmovilizado material: maquinaria, terreno, construcciones.
+	- Inmovilizado inmaterial: marcas, patentes, programas informáticos. Son cosas que no se pueden tocar pero que sí tienen un valor para 		nuestra empresa.
+	- Inmovilizado financiaro: las inversiones que tiene nuestra empresa a largo plazo en otras empresas (por ejemplo que haya invertido en 		una empresa que haya hecho ampliación de capital)
+	- Inversiones inmobiliarias: algo que yo compro no para utilizar en mi empresa, sino para que me genere beneficios, por ejemplo que 		compre locales y los alquile a otras empresas.
+	
+El activo corriente se divide a su vez en tres:
+
+	- Existencias: materias primas (aquello que yo necesito para crear mi producto), productos terminados. Es todo aquello que me va a 	permitir vender y que me genere un ingreso:
+	- Realizables: son los derechos deudores de nuestros clientes. Aquellos clientes que me deben dinero, es todo el dinero que tenemos en la 	calle que en x días se va a convertir en dinero.
+	- Disponible: banco y caja. 
+	
+El pasivo no corriente:
+	- préstamos bancarios a más de un año
+	
+El pasivo corriente:
+	- créditos bancarios a menos de un año
+	- proveedores (y también incluimos los acreedores). Los proveedores son todos aquellos que tienen una relación estable con la empresa y 		los acreedores son los que tienen contacto puntuales (un fontanero que viene a arreglar algo).
+	- Deudas con Seguridad Social y Hacienda
+	
+AMORTIZACIONES --> un dinero que vamos guardando para cuando algo ya no funcione y haya que cambiarlo. Todo lo material con el uso y el paso del tiempo se va desgastando, se queda obsoleto. 
+Desde el punto de vista contable, la amortización va restando. La amortización acumulada es la suma de lo que he amortizado cada año. Se amortiza todo menos el terreno. 

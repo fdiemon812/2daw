@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  tomcat:
+    container_name: tomcatPruebaCompose
+    image: tomcat:9.0
+    ports: 
+      - '9090:8080'
+    volumes:
+      - './context.xml:/usr/local/tomcat/conf/context.xml'
+      - './tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml'
+      - './webapps:/usr/local/tomcat/webapps'
